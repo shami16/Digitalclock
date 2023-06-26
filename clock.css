@@ -1,0 +1,43 @@
+
+    .time{
+        
+        height: 100px;
+        width: 200px;
+        color: blanchedalmond;
+        background-color: rgb(15, 15, 14);
+        border-radius: 10px;
+        position: relative;
+        top: 280px;
+        right: 200px;
+        text-align: center;
+    }
+    body{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(16, 17, 17);
+        background-image: url(../img/-black-hole-.jpg);
+        background-size: cover;
+    }
+    #date
+    {
+        
+        display: flex;
+        text-align: center;
+        visibility: hidden; 
+        color: blanchedalmond;
+    }
+
+    span{
+        
+        width: 100px;
+       
+        
+    }
+    #hero{
+        background-color: blanchedalmond;
+        width: 1px;
+      height: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+  
