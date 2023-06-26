@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/clock.css">
+    
+</head>
+
+<body>
+    <!-- <h1 id="para"></h1>
+    <button id="startbtn">start</button>
+    <button id="stopbtn">stop</button> -->
+
+    <select name="hero" id="hero" onchange="showtime()">
+        <option value="12-HOURS" >12-Hours</option>
+        <option value="24-hours" >24-Hours</option>
+        <option value="date" >Date</option>
+    </select>
+
+       <div id="date">
+         <span id="s1"><h3>D</h3>
+            <h4 id="d1"></h4>
+        </span>
+        <span id="s2"><h3>M</h3>
+            <h4 id="d2"></h4>
+        </span>
+        <span id="s3"><h3>Y</h3>
+            <h4 id="d3"></h4>
+        </span>
+       </div>
+
+    <h1 id="clock"></h1>
+    <div class="time">
+        HOUR$
+        <h1 id="hh"></h1>
+
+    </div>
+    <div class="time">
+        M!NUTES
+        <h1 id="mm"></h1>
+    </div>
+    <div class="time">
+        $ECONDS
+        <h1 id="ss"></h1>
+    </div>
+    <div class="time">
+        @M/PM
+        <h1 id="ampm"></h1>
+    </div>
+    
+
+    <script src="../js/clock.js"></script>
+</body>
+</html>
